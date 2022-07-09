@@ -1,0 +1,21 @@
+font-style -> font-weight -> font-size -> font-family
+font: italic bolder 3em 'Work Sans', sans-serif;
+
+em HTML é id    = em CSS é #
+em HTML é class = em CSS é .
+
+div:hover = dar efeito na div quando passar o mouse por cima
+
+Box model:
+
+- Height = Altura
+- Width = Largura
+- Border = Linha que circunda a caixa
+- Padding = espaco entre a borda e o conteudo
+- Margin = espaco fora da borda
+- outline = tracado fora do elemento
+
+Box-level
+
+
+Inline-level

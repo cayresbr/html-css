@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: gray;
+            padding: 3px;
+            box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.411);
+        }
+
+        nav>a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav>a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article>aside {
+            background-color: rgb(170, 169, 169);
+            margin: 0px;
+        }
+
+        article > aside > p {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        footer {
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        footer>aside {
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p><a href="https://kslsports.com/" target="_blank">Esportes</a> <a href="https://www.ksl.com/news/politics"
+                    target="_blank">Politica</a> e <a href="https://www.nasa.gov/" target="_blank">Tecnologia</a></p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticias do br</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis iste dolor explicabo dignissimos
+                    accusantium qui iusto itaque, aperiam animi fugiat commodi officia dolore distinctio rerum quod
+                    consectetur, similique nemo adipisci!</p>
+                <aside>
+                    <p>Artigo escrito por Rafael Cayres.</p>
+                    <a href="caixa01.html">Caixa 01</a>
+                </aside>
+            </article>
+            
+    </main>
+    <footer>
+        <p>Desenvolvido por Rafael</p>
+        
+
+    </footer>
+</body>
+
+</html>
