@@ -48,6 +48,10 @@ section.imagem > p {
     padding-left: 5px;
 }
 
+section.normal > p {
+    padding-left: 5px;
+}
+
 section.normal {
     background-color: aliceblue;
 }
