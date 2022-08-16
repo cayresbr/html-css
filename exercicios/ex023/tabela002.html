@@ -28,9 +28,17 @@
 
         }
 
-        thead {
+        thead, tfoot {
             background-color: aquamarine;
             color: black;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: aqua;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: azure;
         }
     </style>
 </head>
