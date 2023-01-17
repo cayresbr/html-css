@@ -11,8 +11,35 @@ Desktop: de 992px ate 1200px
 Grandes telas: acima de 1200px
 */
 
-@media print {
-    
+@media print { /* IMPRESSAO */
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body {
+        background-image: url(../imagens/back-print.jpg);
+    }
+
+    main {
+        width: 90vw;
+        border: 2px solid black;
+    }
+
+    main::after {
+        content: 'Essa impressao foi feita para treste';
+        text-decoration: overline;
+    }
+
+    main h1 {
+        text-shadow: none;
+        color: black;
+    }
+
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print {display: block;}
+    img#pc {display: none;}
+    img#tv {display: none;}
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) { /* TABLET */
