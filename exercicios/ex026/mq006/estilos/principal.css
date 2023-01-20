@@ -7,21 +7,22 @@
 }
 
 body {
-    background-color: deepskyblue;
+    background-color: #C9EAD5;
 }
 
 header {
-    background-color: darkolivegreen;
-    text-align: center;
+    background-color: #39664A;
+    text-align: left;
 }
 
 menu {
     background-color: aliceblue;    
-    text-align: center;
+    text-align: left;
     display: none;
 }
 
 span#menu {
+    text-align: left;
     color: black;
     cursor: pointer;
     display: block;
@@ -29,12 +30,12 @@ span#menu {
 }
 
 span#menu:hover {
-    color: white;
+    color: #C9EAD5;
 }
 
 li > a:hover {
-    background-color: black;
-    color: aliceblue;
+    background-color: #39664A;
+    color: #C9EAD5;
 }
 
 h1 {
@@ -43,7 +44,7 @@ h1 {
 
 li {
     display: block;
-    background-color: deepskyblue;
+    background-color: #C9EAD5;
 }
 
 li > a {
@@ -53,7 +54,7 @@ li > a {
 
 main {
     width: 50vw;
-    background-color: aquamarine;
+    background-color: #64B381;
     margin: auto;
     border-radius: 5px;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.425);
@@ -74,5 +75,5 @@ h2 {
 
 footer {
     text-align: center;
-    margin-top: 100vh;
+    padding: 10px;
 }
